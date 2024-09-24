@@ -102,7 +102,14 @@ namespace Calculadora
 
         private void Btnigual_Click(object sender, EventArgs e)
         {
+          if (this.operacao == "soma")
+            {
+                float resultado = valor1 + Convert.ToSingle(TxtResultado.Text);
+                TxtResultado.Text = Convert.ToString(resultado);
+                TxtResultado.Text = resultado.ToString();
 
+
+            }
         }
     }
 }
