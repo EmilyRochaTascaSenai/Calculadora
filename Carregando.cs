@@ -14,9 +14,7 @@ namespace Calculadora
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
-            Calculadora calculadora = new Calculadora();
-            calculadora.Show();
-            this.Hide();
+           
 
         }
     }

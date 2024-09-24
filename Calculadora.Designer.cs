@@ -111,7 +111,7 @@
             CE.ForeColor = SystemColors.ControlText;
             CE.Image = (Image)resources.GetObject("CE.Image");
             CE.ImageAlign = ContentAlignment.TopLeft;
-            CE.Location = new Point(30, 54);
+            CE.Location = new Point(50, 54);
             CE.Name = "CE";
             CE.Size = new Size(83, 38);
             CE.TabIndex = 5;
@@ -133,7 +133,7 @@
             // 
             Num1.BackColor = Color.FromArgb(255, 128, 0);
             Num1.ForeColor = SystemColors.ControlText;
-            Num1.Location = new Point(30, 135);
+            Num1.Location = new Point(50, 141);
             Num1.Name = "Num1";
             Num1.Size = new Size(83, 38);
             Num1.TabIndex = 7;
