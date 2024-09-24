@@ -35,8 +35,9 @@
             // 
             // pictureBox1
             // 
-            pictureBox1.Image = Properties.Resources.carregando;
-            pictureBox1.Location = new Point(193, 63);
+            pictureBox1.Image = Calculadora.Properties.Resources.carregando;
+            pictureBox1.Location = new Point(241, 79);
+            pictureBox1.Margin = new Padding(4, 4, 4, 4);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(400, 300);
             pictureBox1.SizeMode = PictureBoxSizeMode.AutoSize;
@@ -45,13 +46,14 @@
             // 
             // Form1
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ActiveCaption;
-            BackgroundImage = Properties.Resources.tecnologia;
-            ClientSize = new Size(800, 450);
+            BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
+            ClientSize = new Size(1000, 562);
             Controls.Add(pictureBox1);
             Icon = (Icon)resources.GetObject("$this.Icon");
+            Margin = new Padding(4, 4, 4, 4);
             Name = "Form1";
             Text = "Calculadora";
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();

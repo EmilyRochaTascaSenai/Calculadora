@@ -72,7 +72,7 @@ namespace Calculadora
 
         private void Num0_Click(object sender, EventArgs e)
         {
-            TxtResultado.Text=TxtResultado.Text + "0";
+            TxtResultado.Text = TxtResultado.Text + "0";
         }
         private void BtnMais_click(object sender, EventArgs e)
         {
@@ -82,7 +82,7 @@ namespace Calculadora
         }
         private void BtnMenos_click(object sender, EventArgs e)
         {
-            valor1=Convert.ToSingle(TxtResultado.Text);
+            valor1 = Convert.ToSingle(TxtResultado.Text);
             operacao = "Menos";
             TxtResultado.Clear();
         }
@@ -92,11 +92,16 @@ namespace Calculadora
             operacao = "Vezes";
             TxtResultado.Clear();
         }
-        private void BtnDividido_click (object sender, EventArgs e)
+        private void BtnDividido_click(object sender, EventArgs e)
         {
-            valor1=Convert.ToSingle(TxtResultado.Text);
+            valor1 = Convert.ToSingle(TxtResultado.Text);
             operacao = "Dividir";
             TxtResultado.Clear();
+
+        }
+
+        private void Btnigual_Click(object sender, EventArgs e)
+        {
 
         }
     }

@@ -104,6 +104,7 @@
             Btnigual.TabIndex = 4;
             Btnigual.Text = "=";
             Btnigual.UseVisualStyleBackColor = false;
+            Btnigual.Click += Btnigual_Click;
             // 
             // CE
             // 
